@@ -43,3 +43,35 @@ You need to update the JavaScript variable `correctPassword`.
 // Line 140 in index.html
 const correctPassword = "your-new-secret-password";
 // Example: const correctPassword = "happybirthday2025";
+```
+### Step 2: Insert Your Custom Message
+
+Find the `<div id="messageCard">` section (around line 77) and replace the placeholder message.
+
+```<!-- Around Line 77 in index.html -->
+
+<div id="messageCard" style="display: none;">
+  <h3 style="text-align: left;">[Custom Greeting Line Here]</h3>
+  <p>
+    <!--insert message here-->
+    This is my secret message! I updated the password to my dog's name.
+
+    Hope you have a wonderful day!
+  </p>
+</div>
+```
+### Step 3: Commit and Push
+
+Once you've made your changes, commit them to your repository and push:
+
+***MANUAL FIX REQUIRED: Wrap the following code in \\\bash and \\\ after copying.*** git add index.html git commit -m "feat: Added my personalized message and password" git push origin main ***END OF CODE BLOCK***
+
+Feel free to also change the CSS styles (lines 17-70) if you want a different color scheme or layout!
+
+## 🤝 Getting Started
+
+If you're new to Git or GitHub, this is a great, simple project to practice the Fork > Clone > Edit > Commit > Push workflow!
+
+## 📄 License
+
+This project is licensed under the MIT License.
