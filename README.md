@@ -63,8 +63,11 @@ Find the `<div id="messageCard">` section (around line 77) and replace the place
 ### Step 3: Commit and Push
 
 Once you've made your changes, commit them to your repository and push:
-
-***MANUAL FIX REQUIRED: Wrap the following code in \\\bash and \\\ after copying.*** git add index.html git commit -m "feat: Added my personalized message and password" git push origin main ***END OF CODE BLOCK***
+```
+git add index.html
+git commit -m "feat: Added my personalized message and password"
+git push origin main
+```
 
 Feel free to also change the CSS styles (lines 17-70) if you want a different color scheme or layout!
 
